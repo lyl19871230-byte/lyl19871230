@@ -1,0 +1,2422 @@
+[
+  {
+    "paragraph": 1,
+    "style": "Normal",
+    "text": "提示词分类整理大全"
+  },
+  {
+    "paragraph": 2,
+    "style": "Normal",
+    "text": "NotebookLM · ChatGPT · Codex"
+  },
+  {
+    "paragraph": 3,
+    "style": "Normal",
+    "text": "整理说明"
+  },
+  {
+    "paragraph": 4,
+    "style": "Normal",
+    "text": "“适用场景”“分类标题”和整理备注为新增导航文字；蓝灰色提示词区块内的正文保持原文，不做纠错、润色、合并或改写。原文中的重复版本和标点差异均予以保留。"
+  },
+  {
+    "paragraph": 5,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 6,
+    "style": "Guide Category",
+    "text": "分类导航"
+  },
+  {
+    "paragraph": 7,
+    "style": "Guide Category Intro",
+    "text": "先按场景找到类别，再在类别内选择最贴近当前任务的提示词。"
+  },
+  {
+    "paragraph": 8,
+    "style": "Index Category",
+    "text": "01  NotebookLM：资料核验与降低幻觉"
+  },
+  {
+    "paragraph": 9,
+    "style": "Index Item",
+    "text": "用于先检查来源冲突、信息缺口和被忽略的观点，再开展综合分析。（3 组）"
+  },
+  {
+    "paragraph": 10,
+    "style": "Index Category",
+    "text": "02  ChatGPT：学习、训练与知识掌握"
+  },
+  {
+    "paragraph": 11,
+    "style": "Index Item",
+    "text": "从定制学习、节奏控制到测验、复盘和短期通关的提示词。（27 组）"
+  },
+  {
+    "paragraph": 12,
+    "style": "Index Category",
+    "text": "03  通用：提示词优化与复杂任务控制"
+  },
+  {
+    "paragraph": 13,
+    "style": "Index Item",
+    "text": "用于优化原始提示词、约束回答结构，以及控制复杂任务的计划与验收过程。（4 组）"
+  },
+  {
+    "paragraph": 14,
+    "style": "Index Category",
+    "text": "04  Codex 与开发：应用、项目、审计和产品决策"
+  },
+  {
+    "paragraph": 15,
+    "style": "Index Item",
+    "text": "从模糊想法澄清到架构、开发、审计、增长和复盘的可直接使用提示词。（18 组）"
+  },
+  {
+    "paragraph": 16,
+    "style": "Index Category",
+    "text": "05  自动化与定期研究"
+  },
+  {
+    "paragraph": 17,
+    "style": "Index Item",
+    "text": "适合交给自动化任务周期执行的复盘和信息搜集提示词。（2 组）"
+  },
+  {
+    "paragraph": 18,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 19,
+    "style": "Guide Category",
+    "text": "01  NotebookLM：资料核验与降低幻觉"
+  },
+  {
+    "paragraph": 20,
+    "style": "Guide Category Intro",
+    "text": "用于先检查来源冲突、信息缺口和被忽略的观点，再开展综合分析。"
+  },
+  {
+    "paragraph": 21,
+    "style": "Prompt Heading",
+    "text": "01  核对资料来源的观点冲突"
+  },
+  {
+    "paragraph": 22,
+    "style": "Use Case",
+    "text": "适用场景：资料来源较多，先检查不同来源之间是否互相矛盾时。"
+  },
+  {
+    "paragraph": 23,
+    "style": "Prompt Text",
+    "text": "问题一：找出我的资料来源之间，有哪些观点是不一致的，以及它们之间是否有任何矛盾，或者相互冲突的地方。"
+  },
+  {
+    "paragraph": 24,
+    "style": "Prompt Heading",
+    "text": "02  查找资料覆盖空白"
+  },
+  {
+    "paragraph": 25,
+    "style": "Use Case",
+    "text": "适用场景：想判断现有资料是否足以完整理解一个主题时。"
+  },
+  {
+    "paragraph": 26,
+    "style": "Prompt Text",
+    "text": "问题二：找出我的资料来源，存在哪些信息空白，或者覆盖不足的地方。如果我要完整理解这个主题，还缺少哪些必要的资料？"
+  },
+  {
+    "paragraph": 27,
+    "style": "Prompt Heading",
+    "text": "03  补足不同与少数观点"
+  },
+  {
+    "paragraph": 28,
+    "style": "Use Case",
+    "text": "适用场景：想避免资料只呈现单一立场时。"
+  },
+  {
+    "paragraph": 29,
+    "style": "Prompt Text",
+    "text": "问题三：现在的这些资料来源，有没有遗漏任何不同的观点、替代性的想法或者是较少被提及的观点？如果有，具体是什么？"
+  },
+  {
+    "paragraph": 30,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 31,
+    "style": "Guide Category",
+    "text": "02  ChatGPT：学习、训练与知识掌握"
+  },
+  {
+    "paragraph": 32,
+    "style": "Guide Category Intro",
+    "text": "从定制学习、节奏控制到测验、复盘和短期通关的提示词。"
+  },
+  {
+    "paragraph": 33,
+    "style": "Prompt Heading",
+    "text": "04  提供学习背景"
+  },
+  {
+    "paragraph": 34,
+    "style": "Use Case",
+    "text": "适用场景：开始一次定制学习前，先交代任务、时长、主题和当前水平。"
+  },
+  {
+    "paragraph": 35,
+    "style": "Prompt Text",
+    "text": "1.         提供背景信息：我下周要给公司内部做一场分享会，时常1小时，主题是如何利用人工智能代理帮助工作提效，但我对AI代理只有最基础的了解。"
+  },
+  {
+    "paragraph": 36,
+    "style": "Prompt Heading",
+    "text": "05  根据上传资料定制学习"
+  },
+  {
+    "paragraph": 37,
+    "style": "Use Case",
+    "text": "适用场景：已经上传笔记或参考资料，希望学习内容围绕资料展开时。"
+  },
+  {
+    "paragraph": 38,
+    "style": "Prompt Text",
+    "text": "2.         让GPT根据上传资料定制学习：这是我在网上找到的，关于这个主题的笔记和参考资料，请结合这些资料帮我定制学习内容。"
+  },
+  {
+    "paragraph": 39,
+    "style": "Prompt Heading",
+    "text": "06  要求重新解释"
+  },
+  {
+    "paragraph": 40,
+    "style": "Use Case",
+    "text": "适用场景：当前解释听不懂，需要降低难度时。"
+  },
+  {
+    "paragraph": 41,
+    "style": "Prompt Text",
+    "text": "3.         听不懂需要GPT重新解释：我没听明白，能不能讲得再简单点？"
+  },
+  {
+    "paragraph": 42,
+    "style": "Prompt Heading",
+    "text": "07  调整学习节奏"
+  },
+  {
+    "paragraph": 43,
+    "style": "Use Case",
+    "text": "适用场景：需要复习、放慢或跳过已掌握内容时。"
+  },
+  {
+    "paragraph": 44,
+    "style": "Prompt Text",
+    "text": "4.         调整学习节奏：节奏放慢点，我们能不能再复习一下刚才那部分知识？/这部分内容我已经学会了，咱们直接跳过。"
+  },
+  {
+    "paragraph": 45,
+    "style": "Prompt Heading",
+    "text": "08  总结学习内容"
+  },
+  {
+    "paragraph": 46,
+    "style": "Use Case",
+    "text": "适用场景：一轮学习后，需要要点、备忘录或重点清单时。"
+  },
+  {
+    "paragraph": 47,
+    "style": "Prompt Text",
+    "text": "5.         总结学习内容：帮我总结一下刚才学的内容。/帮我做个学习的备忘录。/请以要点的形式，列出我们这节课的重点。"
+  },
+  {
+    "paragraph": 48,
+    "style": "Prompt Heading",
+    "text": "09  用 80/20 法则找重点"
+  },
+  {
+    "paragraph": 49,
+    "style": "Use Case",
+    "text": "适用场景：时间有限，想先掌握最有价值的关键内容时。"
+  },
+  {
+    "paragraph": 50,
+    "style": "Prompt Text",
+    "text": "6.         找出高价值学习内容：我想按照80/20法则学习如何设计YouTube频道封面图，准备把我的视频封面点击率提高。那么我应该重点掌握哪些关键内容？"
+  },
+  {
+    "paragraph": 51,
+    "style": "Prompt Heading",
+    "text": "10  制定四周学习计划"
+  },
+  {
+    "paragraph": 52,
+    "style": "Use Case",
+    "text": "适用场景：需要把目标拆成固定时间段、复习和测验时。"
+  },
+  {
+    "paragraph": 53,
+    "style": "Prompt Text",
+    "text": "7.         规划学习：请根据你给我制定的计划，帮我做一个学习时间表，里面要有定期复习的环节，做一个为期四周的计划，我可以在周一、周三、周五晚上各花一个小时，请教给我封面图设计的最核心内容，还要加上短小的复习测验。"
+  },
+  {
+    "paragraph": 54,
+    "style": "Prompt Heading",
+    "text": "11  生成入门级解释"
+  },
+  {
+    "paragraph": 55,
+    "style": "Use Case",
+    "text": "适用场景：第一次接触概念，希望用简单方式理解时。"
+  },
+  {
+    "paragraph": 56,
+    "style": "Prompt Text",
+    "text": "8.         让GPT生成简单解释：用简单的方式给我解释xx概念，就像我刚入门一样。"
+  },
+  {
+    "paragraph": 57,
+    "style": "Prompt Heading",
+    "text": "12  用费曼法反向讲解"
+  },
+  {
+    "paragraph": 58,
+    "style": "Use Case",
+    "text": "适用场景：想通过自己讲给 AI 听来发现理解漏洞时。"
+  },
+  {
+    "paragraph": 59,
+    "style": "Prompt Text",
+    "text": "9.         解释给GPT听：现在我会试着给你解释xx概念，你来扮演一个好奇的学生，如果我说得不清楚或者错了，你就打断我问问题。"
+  },
+  {
+    "paragraph": 60,
+    "style": "Prompt Heading",
+    "text": "13  用测验检查成果"
+  },
+  {
+    "paragraph": 61,
+    "style": "Use Case",
+    "text": "适用场景：学完一个主题后快速自测时。"
+  },
+  {
+    "paragraph": 62,
+    "style": "Prompt Text",
+    "text": "10.   用GPT测试学习成果：用5道quizGPT测试我：xx主题，用中文"
+  },
+  {
+    "paragraph": 63,
+    "style": "Prompt Heading",
+    "text": "14  改进学习方法"
+  },
+  {
+    "paragraph": 64,
+    "style": "Use Case",
+    "text": "适用场景：复盘哪些学习方法有效、哪些需要调整时。"
+  },
+  {
+    "paragraph": 65,
+    "style": "Prompt Text",
+    "text": "11.   改进学习方法：在学习的过程中，有哪些方法效果不错，哪些还可以改进。"
+  },
+  {
+    "paragraph": 66,
+    "style": "Prompt Heading",
+    "text": "15  规划后续学习"
+  },
+  {
+    "paragraph": 67,
+    "style": "Use Case",
+    "text": "适用场景：完成当前阶段后决定下一步学什么时。"
+  },
+  {
+    "paragraph": 68,
+    "style": "Prompt Text",
+    "text": "12.   制定后续学习计划：接下来学什么比较好，能在当前的基础上更进一步"
+  },
+  {
+    "paragraph": 69,
+    "style": "Prompt Heading",
+    "text": "16  记忆指定写作风格"
+  },
+  {
+    "paragraph": 70,
+    "style": "Use Case",
+    "text": "适用场景：希望后续演讲、日报、月报沿用某种风格时。"
+  },
+  {
+    "paragraph": 71,
+    "style": "Prompt Text",
+    "text": "请记住我给，，，，写的风格，帮我保存到记忆里，下次当我让你在写演讲/日报/月报等。。的时候就用这个风格。"
+  },
+  {
+    "paragraph": 72,
+    "style": "Prompt Heading",
+    "text": "17  80/20 学习重点（原文变体）"
+  },
+  {
+    "paragraph": 73,
+    "style": "Use Case",
+    "text": "适用场景：同类目标需要另一种原文表达时。"
+  },
+  {
+    "paragraph": 74,
+    "style": "Prompt Text",
+    "text": "1.我想按照80/20法则.学习如何设计YouTube频道封面图,准备把我的视频封面点击率提高,那么我应该重点掌握哪些关键内容呢?"
+  },
+  {
+    "paragraph": 75,
+    "style": "Prompt Note",
+    "text": "整理备注：与前面的 80/20 提示词主题相近，按原文保留。"
+  },
+  {
+    "paragraph": 76,
+    "style": "Prompt Heading",
+    "text": "18  四周学习时间表（原文变体）"
+  },
+  {
+    "paragraph": 77,
+    "style": "Use Case",
+    "text": "适用场景：需要固定频率、核心内容、复习与小测时。"
+  },
+  {
+    "paragraph": 78,
+    "style": "Prompt Text",
+    "text": "2.请根据你给我制定的计划,帮我做一个学习时间表,里面要有定期复习的环节,做一个为期四周的计划,我可以在周一、周三、周五晚上各花一个小时,请教给我封面图设计最核心的内容,还要加上短小的复习测验"
+  },
+  {
+    "paragraph": 79,
+    "style": "Prompt Note",
+    "text": "整理备注：与前面的学习计划提示词主题相近，按原文保留。"
+  },
+  {
+    "paragraph": 80,
+    "style": "Prompt Heading",
+    "text": "19  简单解释 + 反向讲解（组合版）"
+  },
+  {
+    "paragraph": 81,
+    "style": "Use Case",
+    "text": "适用场景：希望先听简单解释，再由自己复述并接受追问时。"
+  },
+  {
+    "paragraph": 82,
+    "style": "Prompt Text",
+    "text": "3.用简单的方式给我解释xx概念,就像我刚入门一样,现在我会试着给你解释xx概念,你来扮演一个好奇的学生，如果我说得不清楚或者错了，你就打断我问问题"
+  },
+  {
+    "paragraph": 83,
+    "style": "Prompt Heading",
+    "text": "20  文件定向测验（原文变体）"
+  },
+  {
+    "paragraph": 84,
+    "style": "Use Case",
+    "text": "适用场景：希望测验围绕上传文件展开时。"
+  },
+  {
+    "paragraph": 85,
+    "style": "Prompt Text",
+    "text": "4.用5道quizGPT测试我xx主题、用中文(可针对传的文件问问题）"
+  },
+  {
+    "paragraph": 86,
+    "style": "Prompt Heading",
+    "text": "21  观察智能体拆解复杂任务"
+  },
+  {
+    "paragraph": 87,
+    "style": "Use Case",
+    "text": "适用场景：想把复杂目标交给智能体，并追问其方法选择时。"
+  },
+  {
+    "paragraph": 88,
+    "style": "Prompt Text",
+    "text": "5.把复杂任务丢给智能体,给他设定目标, AI会自己拆解目标,边做边解释，看AI的思维链，他如何学习和思考的,学习AI的学习过程。新方法，新工具，新思路。(还可以反问 你为什么使用这种方法）"
+  },
+  {
+    "paragraph": 89,
+    "style": "Prompt Heading",
+    "text": "22  学习复盘与进阶（组合版）"
+  },
+  {
+    "paragraph": 90,
+    "style": "Use Case",
+    "text": "适用场景：一次性复盘方法效果并规划下一阶段时。"
+  },
+  {
+    "paragraph": 91,
+    "style": "Prompt Text",
+    "text": "6.在学习的过程中,有哪些方法效果不错,哪些还可以改进,接下来学什么比较好?能在当前的基础上更进一步?"
+  },
+  {
+    "paragraph": 92,
+    "style": "Prompt Heading",
+    "text": "23  考试场景：延迟揭晓答案"
+  },
+  {
+    "paragraph": 93,
+    "style": "Use Case",
+    "text": "适用场景：想用现实场景和连续追问逼自己发现错误时。"
+  },
+  {
+    "paragraph": 94,
+    "style": "Prompt Text",
+    "text": "1、考试应用场景：别解释【概念】。直接给我一个现实场景，我得用到它，通常会出错，出错了别给答案。问我问题让我自己发现错在哪。至少试2次才揭露解法。重复这个过程直到我能自信回答。"
+  },
+  {
+    "paragraph": 95,
+    "style": "Prompt Heading",
+    "text": "24  学习新知识：先抓核心句"
+  },
+  {
+    "paragraph": 96,
+    "style": "Use Case",
+    "text": "适用场景：想先抓住理解整章内容的关键句，再用问题验收时。"
+  },
+  {
+    "paragraph": 97,
+    "style": "Prompt Text",
+    "text": "2、学习新知识：这内容我不懂。讲前先告诉我，理解哪句话就能理解全部。只讲那句。用日常类比，别用术语。然后问我3个问题，只有真正懂的才答得出。全部答对才能继续。"
+  },
+  {
+    "paragraph": 98,
+    "style": "Prompt Heading",
+    "text": "25  定制 7 天学习路径"
+  },
+  {
+    "paragraph": 99,
+    "style": "Use Case",
+    "text": "适用场景：目标、期限、已有基础都明确，需要短周期训练时。"
+  },
+  {
+    "paragraph": 100,
+    "style": "Prompt Text",
+    "text": "3、定制路径：我的目标是【目标】，我不想泛学【技能】，想在【期限】内达到【具体结果】。我已经知道【已学内容】。给我7天计划，每天一个45分钟任务，清楚的完成标准，要避免什么别浪费时间，达不到目标就修改直到达成。"
+  },
+  {
+    "paragraph": 101,
+    "style": "Prompt Heading",
+    "text": "26  考试：暴露理解弱点"
+  },
+  {
+    "paragraph": 102,
+    "style": "Use Case",
+    "text": "适用场景：自认为掌握某项技能，想用刁钻基础题检验深度时。"
+  },
+  {
+    "paragraph": 103,
+    "style": "Prompt Text",
+    "text": "4、考试：我以为精通【技能】。证明我错，问我5个看似简单的问题，但能暴露没深入理解的弱点。对每个答案，告诉我它暴露了什么基础漏洞，别客套，直话直说我是不是只懂皮毛。"
+  },
+  {
+    "paragraph": 104,
+    "style": "Prompt Heading",
+    "text": "27  48 小时通关：核心思维模型"
+  },
+  {
+    "paragraph": 105,
+    "style": "Use Case",
+    "text": "适用场景：快速建立一个领域的底层思维框架时。"
+  },
+  {
+    "paragraph": 106,
+    "style": "Prompt Text",
+    "text": "问题 1（直奔底层思维模型）：该领域里的每一位专家，共同拥有的 5 个核心思维模型（Mental Models）是什么？"
+  },
+  {
+    "paragraph": 107,
+    "style": "Prompt Heading",
+    "text": "28  48 小时通关：专家分歧"
+  },
+  {
+    "paragraph": 108,
+    "style": "Use Case",
+    "text": "适用场景：快速了解领域内关键争论和各方强论据时。"
+  },
+  {
+    "paragraph": 109,
+    "style": "Prompt Text",
+    "text": "问题 2（摸清知识版图战火）：现在，给我找出该领域的专家们存在根本分歧的 3 个地方，并写出每一方最强有力的论据是什么。"
+  },
+  {
+    "paragraph": 110,
+    "style": "Prompt Heading",
+    "text": "29  48 小时通关：深度理解验真题"
+  },
+  {
+    "paragraph": 111,
+    "style": "Use Case",
+    "text": "适用场景：需要区分真正理解和死记硬背时。"
+  },
+  {
+    "paragraph": 112,
+    "style": "Prompt Text",
+    "text": "问题 3（生成灵魂考题验伪）：生成 10 个问题。这些问题要能一眼验出，对方是真正深度理解了这门学科，还是仅仅死记硬背了一些知识点。"
+  },
+  {
+    "paragraph": 113,
+    "style": "Prompt Heading",
+    "text": "30  48 小时通关：纠错与溯源"
+  },
+  {
+    "paragraph": 114,
+    "style": "Use Case",
+    "text": "适用场景：答案出错后，需要定位缺失的核心逻辑时。"
+  },
+  {
+    "paragraph": 115,
+    "style": "Prompt Text",
+    "text": "问题 4（纠错与逻辑溯源）：解释为什么这个答案是错的，以及我到底漏掉了什么核心逻辑。"
+  },
+  {
+    "paragraph": 116,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 117,
+    "style": "Guide Category",
+    "text": "03  通用：提示词优化与复杂任务控制"
+  },
+  {
+    "paragraph": 118,
+    "style": "Guide Category Intro",
+    "text": "用于优化原始提示词、约束回答结构，以及控制复杂任务的计划与验收过程。"
+  },
+  {
+    "paragraph": 119,
+    "style": "Prompt Heading",
+    "text": "31  提示词优化器（中文）"
+  },
+  {
+    "paragraph": 120,
+    "style": "Use Case",
+    "text": "适用场景：手里已有一版原始提示词，希望 AI 将它升级为专业版本时。"
+  },
+  {
+    "paragraph": 121,
+    "style": "Prompt Text",
+    "text": "你是一名资深的提示词工程师，擅长为各类AI语言模型（尤其是 ChatGPT 5.5 Thinking 模型）设计高质量提示词。"
+  },
+  {
+    "paragraph": 122,
+    "style": "Prompt Text",
+    "text": "你的任务是接收我提供的原始提示词，并将其升级为结构更清晰、逻辑更严谨、效果更突出、能够引导模型输出最佳结果的专业提示词。"
+  },
+  {
+    "paragraph": 123,
+    "style": "Prompt Text",
+    "text": "请将你优化后的提示词以代码区块（code block）格式输出，方便我复制与使用。"
+  },
+  {
+    "paragraph": 124,
+    "style": "Prompt Text",
+    "text": "## 以下是我当前的原始提示词："
+  },
+  {
+    "paragraph": 125,
+    "style": "Prompt Heading",
+    "text": "32  Prompt optimizer (English)"
+  },
+  {
+    "paragraph": 126,
+    "style": "Use Case",
+    "text": "适用场景：需要英文版提示词优化器时。"
+  },
+  {
+    "paragraph": 127,
+    "style": "Prompt Text",
+    "text": "You are an expert prompt engineer specializing in creating prompts for AI language models, particularly ChatGPT 5.1 Thinking Model."
+  },
+  {
+    "paragraph": 128,
+    "style": "Prompt Text",
+    "text": "Your task is to take my prompt and transform it into a well-crafted and effective prompt that will elicit optimal responses."
+  },
+  {
+    "paragraph": 129,
+    "style": "Prompt Text",
+    "text": "Format your output prompt within a code block for clarity and easy copy-pasting."
+  },
+  {
+    "paragraph": 130,
+    "style": "Prompt Text",
+    "text": "## Here’s my initial prompt:"
+  },
+  {
+    "paragraph": 131,
+    "style": "Prompt Heading",
+    "text": "33  复杂任务计划与分步执行模板"
+  },
+  {
+    "paragraph": 132,
+    "style": "Use Case",
+    "text": "适用场景：长文本、报告、代码调试或其他多步骤任务，需要先计划、再逐步验收时。"
+  },
+  {
+    "paragraph": 133,
+    "style": "Prompt Text",
+    "text": "严格按照这些要求来操作。"
+  },
+  {
+    "paragraph": 134,
+    "style": "Prompt Text",
+    "text": "目标：[这里写你想要的结果]。"
+  },
+  {
+    "paragraph": 135,
+    "style": "Prompt Text",
+    "text": "限制条件：[这里写清楚你的具体要求]。"
+  },
+  {
+    "paragraph": 136,
+    "style": "Prompt Text",
+    "text": "语调/风格/格式：[比如要用大白话还是相对严谨的文风，回答要不要列一个表格或者写一个列表来按哪几点回答]。"
+  },
+  {
+    "paragraph": 137,
+    "style": "Prompt Text",
+    "text": "先做好计划："
+  },
+  {
+    "paragraph": 138,
+    "style": "Prompt Text",
+    "text": "1. 把任务拆成几个部分"
+  },
+  {
+    "paragraph": 139,
+    "style": "Prompt Text",
+    "text": "2. 列出觉得模糊的地方"
+  },
+  {
+    "paragraph": 140,
+    "style": "Prompt Text",
+    "text": "3. 制定分步骤的计划"
+  },
+  {
+    "paragraph": 141,
+    "style": "Prompt Text",
+    "text": "4. 做好计划后，跟我确认计划是否OK"
+  },
+  {
+    "paragraph": 142,
+    "style": "Prompt Text",
+    "text": "做事流程："
+  },
+  {
+    "paragraph": 143,
+    "style": "Prompt Text",
+    "text": "1. 先搞清楚你懂了没有"
+  },
+  {
+    "paragraph": 144,
+    "style": "Prompt Text",
+    "text": "2. 每完成一步给我看看结果，等我检查"
+  },
+  {
+    "paragraph": 145,
+    "style": "Prompt Text",
+    "text": "3. 所有步骤都做完之前不准结束"
+  },
+  {
+    "paragraph": 146,
+    "style": "Prompt Text",
+    "text": "要是任务比较复杂，或者我说了“好好思考一下”这种句子的话，就用 GPT-5 思考模式。"
+  },
+  {
+    "paragraph": 147,
+    "style": "Prompt Heading",
+    "text": "34  专家助理通用提示词"
+  },
+  {
+    "paragraph": 148,
+    "style": "Use Case",
+    "text": "适用场景：希望回答始终直接、包含步骤、备选视角与行动计划时。"
+  },
+  {
+    "paragraph": 149,
+    "style": "Prompt Text",
+    "text": "中文版本 Prompt：从现在起，把自己当作我的专家助理，充分调动你的知识与推理能力。请始终提供："
+  },
+  {
+    "paragraph": 150,
+    "style": "Prompt Text",
+    "text": "- 对我问题清晰、直接的答案"
+  },
+  {
+    "paragraph": 151,
+    "style": "Prompt Text",
+    "text": "- 你是如何得到结论的分步骤说明"
+  },
+  {
+    "paragraph": 152,
+    "style": "Prompt Text",
+    "text": "- 我可能没有想到的其他视角或可选方案"
+  },
+  {
+    "paragraph": 153,
+    "style": "Prompt Text",
+    "text": "- 立刻可执行的摘要或行动计划不要给含糊的回答。"
+  },
+  {
+    "paragraph": 154,
+    "style": "Prompt Text",
+    "text": "问题过于宽泛时，请把它拆解成若干部分。若我寻求帮助，请像该领域的专业人士（老师、教练、工程师、医生等）那样回应。把你的推理能力开到最大。英文版后页，个人建议用英文版。 "
+  },
+  {
+    "paragraph": 155,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 156,
+    "style": "Guide Category",
+    "text": "04  Codex 与开发：应用、项目、审计和产品决策"
+  },
+  {
+    "paragraph": 157,
+    "style": "Guide Category Intro",
+    "text": "从模糊想法澄清到架构、开发、审计、增长和复盘的可直接使用提示词。"
+  },
+  {
+    "paragraph": 158,
+    "style": "Prompt Heading",
+    "text": "35  制作简单小应用"
+  },
+  {
+    "paragraph": 159,
+    "style": "Use Case",
+    "text": "适用场景：在画布或可构建应用的环境中快速发起一个小应用需求时。"
+  },
+  {
+    "paragraph": 160,
+    "style": "Prompt Text",
+    "text": "打开画布功能—请你帮我做个简单的。。。小应用"
+  },
+  {
+    "paragraph": 161,
+    "style": "Prompt Heading",
+    "text": "36  生成游戏、网页或 PPT"
+  },
+  {
+    "paragraph": 162,
+    "style": "Use Case",
+    "text": "适用场景：需求还比较粗，只想先让 Codex 开始搭建时。"
+  },
+  {
+    "paragraph": 163,
+    "style": "Prompt Text",
+    "text": "请帮我做一个，，，游戏、网页、ppt之类的。"
+  },
+  {
+    "paragraph": 164,
+    "style": "Prompt Heading",
+    "text": "37  查看并回到历史提交"
+  },
+  {
+    "paragraph": 165,
+    "style": "Use Case",
+    "text": "适用场景：想先了解项目有哪些提交版本，再回到之前版本时。"
+  },
+  {
+    "paragraph": 166,
+    "style": "Prompt Text",
+    "text": "现在这个项目有哪些commit版本，然后回到之前的版本。"
+  },
+  {
+    "paragraph": 167,
+    "style": "Prompt Heading",
+    "text": "38  开发带 API 的网站或应用"
+  },
+  {
+    "paragraph": 168,
+    "style": "Use Case",
+    "text": "适用场景：需要开发网站/应用并接入 API，同时希望得到 API key 放置指导时。"
+  },
+  {
+    "paragraph": 169,
+    "style": "Prompt Text",
+    "text": "做应用程序，请你给我开发一个。。网站/应用；对ai说请一步步教我在哪个文件里放置我的APIkey。帮我接入API。"
+  },
+  {
+    "paragraph": 170,
+    "style": "Prompt Heading",
+    "text": "39  创建 AGENTS.md 保存项目记忆"
+  },
+  {
+    "paragraph": 171,
+    "style": "Use Case",
+    "text": "适用场景：项目写到一半，需要补充说明书以便持续开发时。"
+  },
+  {
+    "paragraph": 172,
+    "style": "Prompt Text",
+    "text": "写到一半的时候告诉codex写一个agents。md的说明书把项目记忆保存"
+  },
+  {
+    "paragraph": 173,
+    "style": "Prompt Heading",
+    "text": "40  限定移动端首页优化范围"
+  },
+  {
+    "paragraph": 174,
+    "style": "Use Case",
+    "text": "适用场景：只允许修改特定页面和特定问题，并要求先给计划时。"
+  },
+  {
+    "paragraph": 175,
+    "style": "Prompt Text",
+    "text": "任务不能模糊比如：请只优化首页在手机屏幕下的布局，按钮不要超出屏幕，标题最多两行，不改变现有配色，先给计划，不要直接改。"
+  },
+  {
+    "paragraph": 176,
+    "style": "Prompt Heading",
+    "text": "41  为项目建立 agent.md 总说明"
+  },
+  {
+    "paragraph": 177,
+    "style": "Use Case",
+    "text": "适用场景：需要沉淀项目定位、工作方式、重要文件和输出风格时。"
+  },
+  {
+    "paragraph": 178,
+    "style": "Prompt Text",
+    "text": "在供热文件里写一个agent.md，来对整个文件的情况做一个说明，项目定位，工作方式，重要文件，输出风格，把不同的流程建立一个文件。"
+  },
+  {
+    "paragraph": 179,
+    "style": "Prompt Heading",
+    "text": "42  修改整理文件的安全流程"
+  },
+  {
+    "paragraph": 180,
+    "style": "Use Case",
+    "text": "适用场景：要让 Codex 先诊断、分级处理、保留原件并报告新文件位置时。"
+  },
+  {
+    "paragraph": 181,
+    "style": "Prompt Text",
+    "text": "1、先问问codex这个文件存在什么问题？先说计划不让乱改先标注出来"
+  },
+  {
+    "paragraph": 182,
+    "style": "Prompt Text",
+    "text": "2、先不要修改，哪些可以自动处理，哪些需要单独标出来让我再检查，哪些可以生成结果，不确定的地方先列出来"
+  },
+  {
+    "paragraph": 183,
+    "style": "Prompt Text",
+    "text": "3、不要覆盖原始文件，生成新的文件"
+  },
+  {
+    "paragraph": 184,
+    "style": "Prompt Text",
+    "text": "4、做完我以后告诉我新文件在哪里"
+  },
+  {
+    "paragraph": 185,
+    "style": "Prompt Heading",
+    "text": "43  计划模式：小工具、改文件、批量处理"
+  },
+  {
+    "paragraph": 186,
+    "style": "Use Case",
+    "text": "适用场景：想法还模糊，希望先讨论用途、复杂度和演示方案，不立刻写代码时。"
+  },
+  {
+    "paragraph": 187,
+    "style": "Prompt Text",
+    "text": "先问问不写代码，不要创建文件，先给我几个方案，小工具能做什么，打开以后怎么用？做起来会不会复杂？哪个最适合第一次演示？想法：先理清方向—再生成计划。表格：先诊断问题—再处理表格工具：先看计划——执行后检查。"
+  },
+  {
+    "paragraph": 188,
+    "style": "Prompt Heading",
+    "text": "44  把模糊需求澄清流程做成 Skill"
+  },
+  {
+    "paragraph": 189,
+    "style": "Use Case",
+    "text": "适用场景：想把反复使用的需求澄清与初版计划流程固化为 Skill 时。"
+  },
+  {
+    "paragraph": 190,
+    "style": "Prompt Text",
+    "text": "我想把这套流程做成一个以后可以反复调用的skill，这个skill的作用是以后有很模糊的小工具的想法，或者有一份文档想继续做成小工具时，先问清楚需求，整理第一版计划。请你帮我创建这个skill"
+  },
+  {
+    "paragraph": 191,
+    "style": "Prompt Heading",
+    "text": "45  跨任务分析 Codex 效率（英文）"
+  },
+  {
+    "paragraph": 192,
+    "style": "Use Case",
+    "text": "适用场景：希望 Codex 回顾任务与项目，并用子代理提出效率改进方案时。"
+  },
+  {
+    "paragraph": 193,
+    "style": "Prompt Text",
+    "text": "Look across my threads and projects and come up with five ways to simplify and work more efficiently with Codex. Use sub-agents.用中文回复我"
+  },
+  {
+    "paragraph": 194,
+    "style": "Prompt Heading",
+    "text": "46  跨任务分析 Codex 效率（中文）"
+  },
+  {
+    "paragraph": 195,
+    "style": "Use Case",
+    "text": "适用场景：希望结合近期聊天和项目设计多 Sub-agent 协作方案时。"
+  },
+  {
+    "paragraph": 196,
+    "style": "Prompt Text",
+    "text": "分析一下我最近所有的聊天记录和项目，结合我正在做的事情，设计 5 种利用 Codex 提高工作效率的方法，并且这些方案要采用多个 Sub-agent 协同工作的架构。"
+  },
+  {
+    "paragraph": 197,
+    "style": "Prompt Heading",
+    "text": "47  架构师模式"
+  },
+  {
+    "paragraph": 198,
+    "style": "Use Case",
+    "text": "适用场景：做网站、工具、自动化系统、SaaS、交易机器人或内容平台，且需要先分析再选方案时。"
+  },
+  {
+    "paragraph": 199,
+    "style": "Prompt Text",
+    "text": "你现在是一个资深系统架构师。"
+  },
+  {
+    "paragraph": 200,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 201,
+    "style": "Prompt Text",
+    "text": "请先不要写代码。"
+  },
+  {
+    "paragraph": 202,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 203,
+    "style": "Prompt Text",
+    "text": "我会给你一个需求，你需要先帮我完成以下分析："
+  },
+  {
+    "paragraph": 204,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 205,
+    "style": "Prompt Text",
+    "text": "1. 这个需求真正要解决的问题是什么？"
+  },
+  {
+    "paragraph": 206,
+    "style": "Prompt Text",
+    "text": "2. 它的核心用户是谁？"
+  },
+  {
+    "paragraph": 207,
+    "style": "Prompt Text",
+    "text": "3. 最小可行版本 MVP 应该包含哪些功能？"
+  },
+  {
+    "paragraph": 208,
+    "style": "Prompt Text",
+    "text": "4. 哪些功能现在不该做，容易浪费时间？"
+  },
+  {
+    "paragraph": 209,
+    "style": "Prompt Text",
+    "text": "5. 这个系统可能有哪些技术风险？"
+  },
+  {
+    "paragraph": 210,
+    "style": "Prompt Text",
+    "text": "6. 数据结构、接口、前端、后端应该怎么拆？"
+  },
+  {
+    "paragraph": 211,
+    "style": "Prompt Text",
+    "text": "7. 给我 3 套实现方案："
+  },
+  {
+    "paragraph": 212,
+    "style": "Prompt Text",
+    "text": "   - 最快上线版"
+  },
+  {
+    "paragraph": 213,
+    "style": "Prompt Text",
+    "text": "   - 稳定可扩展版"
+  },
+  {
+    "paragraph": 214,
+    "style": "Prompt Text",
+    "text": "   - 低成本个人开发版"
+  },
+  {
+    "paragraph": 215,
+    "style": "Prompt Text",
+    "text": "8. 每套方案说明："
+  },
+  {
+    "paragraph": 216,
+    "style": "Prompt Text",
+    "text": "   - 优点"
+  },
+  {
+    "paragraph": 217,
+    "style": "Prompt Text",
+    "text": "   - 缺点"
+  },
+  {
+    "paragraph": 218,
+    "style": "Prompt Text",
+    "text": "   - 开发周期"
+  },
+  {
+    "paragraph": 219,
+    "style": "Prompt Text",
+    "text": "   - 适合什么场景"
+  },
+  {
+    "paragraph": 220,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 221,
+    "style": "Prompt Text",
+    "text": "最后，请给我一个推荐方案，并说明为什么"
+  },
+  {
+    "paragraph": 222,
+    "style": "Prompt Heading",
+    "text": "48  代码审计模式"
+  },
+  {
+    "paragraph": 223,
+    "style": "Use Case",
+    "text": "适用场景：检查他人代码、AI 生成代码或现有项目中的 bug、性能、安全和维护风险时。"
+  },
+  {
+    "paragraph": 224,
+    "style": "Prompt Text",
+    "text": "你现在是一个资深代码审计专家。"
+  },
+  {
+    "paragraph": 225,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 226,
+    "style": "Prompt Text",
+    "text": "请你以非常严格的标准检查下面这段代码。"
+  },
+  {
+    "paragraph": 227,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 228,
+    "style": "Prompt Text",
+    "text": "不要只看语法是否正确。"
+  },
+  {
+    "paragraph": 229,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 230,
+    "style": "Prompt Text",
+    "text": "重点帮我检查："
+  },
+  {
+    "paragraph": 231,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 232,
+    "style": "Prompt Text",
+    "text": "1. 是否有隐藏 bug？"
+  },
+  {
+    "paragraph": 233,
+    "style": "Prompt Text",
+    "text": "2. 是否有边界条件没处理？"
+  },
+  {
+    "paragraph": 234,
+    "style": "Prompt Text",
+    "text": "3. 是否可能出现性能问题？"
+  },
+  {
+    "paragraph": 235,
+    "style": "Prompt Text",
+    "text": "4. 是否有安全风险？"
+  },
+  {
+    "paragraph": 236,
+    "style": "Prompt Text",
+    "text": "5. 是否有硬编码密钥、Token、密码？"
+  },
+  {
+    "paragraph": 237,
+    "style": "Prompt Text",
+    "text": "6. 是否有重复代码？"
+  },
+  {
+    "paragraph": 238,
+    "style": "Prompt Text",
+    "text": "7. 是否有不容易维护的设计？"
+  },
+  {
+    "paragraph": 239,
+    "style": "Prompt Text",
+    "text": "8. 是否有未来扩展时会踩坑的地方？"
+  },
+  {
+    "paragraph": 240,
+    "style": "Prompt Text",
+    "text": "9. 是否有异常处理不完整的问题？"
+  },
+  {
+    "paragraph": 241,
+    "style": "Prompt Text",
+    "text": "10. 是否有日志、错误提示不清晰的问题？"
+  },
+  {
+    "paragraph": 242,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 243,
+    "style": "Prompt Text",
+    "text": "请按以下格式输出："
+  },
+  {
+    "paragraph": 244,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 245,
+    "style": "Prompt Text",
+    "text": "- 最危险的问题："
+  },
+  {
+    "paragraph": 246,
+    "style": "Prompt Text",
+    "text": "- 可能导致的后果："
+  },
+  {
+    "paragraph": 247,
+    "style": "Prompt Text",
+    "text": "- 具体出问题的位置："
+  },
+  {
+    "paragraph": 248,
+    "style": "Prompt Text",
+    "text": "- 推荐修改方式："
+  },
+  {
+    "paragraph": 249,
+    "style": "Prompt Text",
+    "text": "- 修改后的代码示例："
+  },
+  {
+    "paragraph": 250,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 251,
+    "style": "Prompt Text",
+    "text": "如果代码整体设计不合理，请直接指出，不要为了礼貌而模糊表达。"
+  },
+  {
+    "paragraph": 252,
+    "style": "Prompt Heading",
+    "text": "49  产品经理模式"
+  },
+  {
+    "paragraph": 253,
+    "style": "Use Case",
+    "text": "适用场景：有产品想法，但用户、场景、需求和验证方式还没有想清楚时。"
+  },
+  {
+    "paragraph": 254,
+    "style": "Prompt Text",
+    "text": "你现在是一个经验丰富的产品经理。"
+  },
+  {
+    "paragraph": 255,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 256,
+    "style": "Prompt Text",
+    "text": "我会告诉你一个产品想法。"
+  },
+  {
+    "paragraph": 257,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 258,
+    "style": "Prompt Text",
+    "text": "请你不要急着给方案。"
+  },
+  {
+    "paragraph": 259,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 260,
+    "style": "Prompt Text",
+    "text": "先帮我反问 10 个关键问题，用来确认这个产品是否真的值得做。"
+  },
+  {
+    "paragraph": 261,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 262,
+    "style": "Prompt Text",
+    "text": "问题必须覆盖："
+  },
+  {
+    "paragraph": 263,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 264,
+    "style": "Prompt Text",
+    "text": "1. 目标用户是谁？"
+  },
+  {
+    "paragraph": 265,
+    "style": "Prompt Text",
+    "text": "2. 用户现在用什么方式解决这个问题？"
+  },
+  {
+    "paragraph": 266,
+    "style": "Prompt Text",
+    "text": "3. 这个问题是否高频？"
+  },
+  {
+    "paragraph": 267,
+    "style": "Prompt Text",
+    "text": "4. 这个问题是否足够痛？"
+  },
+  {
+    "paragraph": 268,
+    "style": "Prompt Text",
+    "text": "5. 用户是否愿意付费？"
+  },
+  {
+    "paragraph": 269,
+    "style": "Prompt Text",
+    "text": "6. 现有竞品是谁？"
+  },
+  {
+    "paragraph": 270,
+    "style": "Prompt Text",
+    "text": "7. 我的差异化在哪里？"
+  },
+  {
+    "paragraph": 271,
+    "style": "Prompt Text",
+    "text": "8. 第一个版本应该只做什么？"
+  },
+  {
+    "paragraph": 272,
+    "style": "Prompt Text",
+    "text": "9. 哪些功能现在绝对不要做？"
+  },
+  {
+    "paragraph": 273,
+    "style": "Prompt Text",
+    "text": "10. 怎么用最低成本验证需求？"
+  },
+  {
+    "paragraph": 274,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 275,
+    "style": "Prompt Text",
+    "text": "在我回答完这些问题后，你再帮我整理成："
+  },
+  {
+    "paragraph": 276,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 277,
+    "style": "Prompt Text",
+    "text": "- 产品定位"
+  },
+  {
+    "paragraph": 278,
+    "style": "Prompt Text",
+    "text": "- 用户画像"
+  },
+  {
+    "paragraph": 279,
+    "style": "Prompt Text",
+    "text": "- 核心卖点"
+  },
+  {
+    "paragraph": 280,
+    "style": "Prompt Text",
+    "text": "- MVP 功能列表"
+  },
+  {
+    "paragraph": 281,
+    "style": "Prompt Text",
+    "text": "- 7 天验证计划"
+  },
+  {
+    "paragraph": 282,
+    "style": "Prompt Heading",
+    "text": "50  增长顾问模式"
+  },
+  {
+    "paragraph": 283,
+    "style": "Use Case",
+    "text": "适用场景：做推特、公众号、短视频、网站流量或 AI 工具推广时。"
+  },
+  {
+    "paragraph": 284,
+    "style": "Prompt Text",
+    "text": "你现在是一个增长顾问。"
+  },
+  {
+    "paragraph": 285,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 286,
+    "style": "Prompt Text",
+    "text": "我会给你一个产品、账号或内容方向。"
+  },
+  {
+    "paragraph": 287,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 288,
+    "style": "Prompt Text",
+    "text": "请你从增长角度帮我拆解："
+  },
+  {
+    "paragraph": 289,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 290,
+    "style": "Prompt Text",
+    "text": "1. 目标用户是谁？"
+  },
+  {
+    "paragraph": 291,
+    "style": "Prompt Text",
+    "text": "2. 用户为什么会关注我？"
+  },
+  {
+    "paragraph": 292,
+    "style": "Prompt Text",
+    "text": "3. 我的内容钩子是什么？"
+  },
+  {
+    "paragraph": 293,
+    "style": "Prompt Text",
+    "text": "4. 哪些话题最容易带来转发？"
+  },
+  {
+    "paragraph": 294,
+    "style": "Prompt Text",
+    "text": "5. 哪些内容最容易带来收藏？"
+  },
+  {
+    "paragraph": 295,
+    "style": "Prompt Text",
+    "text": "6. 哪些内容最容易带来评论？"
+  },
+  {
+    "paragraph": 296,
+    "style": "Prompt Text",
+    "text": "7. 我应该模仿哪些账号？"
+  },
+  {
+    "paragraph": 297,
+    "style": "Prompt Text",
+    "text": "8. 每天应该发什么类型内容？"
+  },
+  {
+    "paragraph": 298,
+    "style": "Prompt Text",
+    "text": "9. 7 天内怎么测试方向是否有效？"
+  },
+  {
+    "paragraph": 299,
+    "style": "Prompt Text",
+    "text": "10. 30 天内如何形成稳定内容资产？"
+  },
+  {
+    "paragraph": 300,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 301,
+    "style": "Prompt Text",
+    "text": "请最后输出："
+  },
+  {
+    "paragraph": 302,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 303,
+    "style": "Prompt Text",
+    "text": "- 账号定位一句话"
+  },
+  {
+    "paragraph": 304,
+    "style": "Prompt Text",
+    "text": "- 3 个爆款选题"
+  },
+  {
+    "paragraph": 305,
+    "style": "Prompt Text",
+    "text": "- 5 条推文标题"
+  },
+  {
+    "paragraph": 306,
+    "style": "Prompt Text",
+    "text": "- 7 天内容计划"
+  },
+  {
+    "paragraph": 307,
+    "style": "Prompt Text",
+    "text": "- 一个可执行的涨粉闭环"
+  },
+  {
+    "paragraph": 308,
+    "style": "Prompt Heading",
+    "text": "51  老板视角模式"
+  },
+  {
+    "paragraph": 309,
+    "style": "Use Case",
+    "text": "适用场景：从现金流、投入产出比和风险角度判断项目是否值得做时。"
+  },
+  {
+    "paragraph": 310,
+    "style": "Prompt Text",
+    "text": "你现在不是程序员，也不是产品经理。"
+  },
+  {
+    "paragraph": 311,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 312,
+    "style": "Prompt Text",
+    "text": "你现在是一个只关心现金流、投入产出比和风险控制的老板。"
+  },
+  {
+    "paragraph": 313,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 314,
+    "style": "Prompt Text",
+    "text": "请你帮我判断这个项目值不值得做。"
+  },
+  {
+    "paragraph": 315,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 316,
+    "style": "Prompt Text",
+    "text": "分析维度包括："
+  },
+  {
+    "paragraph": 317,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 318,
+    "style": "Prompt Text",
+    "text": "1. 这个项目解决的是不是刚需？"
+  },
+  {
+    "paragraph": 319,
+    "style": "Prompt Text",
+    "text": "2. 用户是否愿意付费？"
+  },
+  {
+    "paragraph": 320,
+    "style": "Prompt Text",
+    "text": "3. 最快多久能做出 MVP？"
+  },
+  {
+    "paragraph": 321,
+    "style": "Prompt Text",
+    "text": "4. 最快多久能拿到第一笔钱？"
+  },
+  {
+    "paragraph": 322,
+    "style": "Prompt Text",
+    "text": "5. 获客成本可能是多少？"
+  },
+  {
+    "paragraph": 323,
+    "style": "Prompt Text",
+    "text": "6. 这个项目最大的风险是什么？"
+  },
+  {
+    "paragraph": 324,
+    "style": "Prompt Text",
+    "text": "7. 有没有更简单的赚钱路径？"
+  },
+  {
+    "paragraph": 325,
+    "style": "Prompt Text",
+    "text": "8. 我一个人能不能做？"
+  },
+  {
+    "paragraph": 326,
+    "style": "Prompt Text",
+    "text": "9. 哪些事情应该自动化？"
+  },
+  {
+    "paragraph": 327,
+    "style": "Prompt Text",
+    "text": "10. 哪些事情应该外包或暂时不做？"
+  },
+  {
+    "paragraph": 328,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 329,
+    "style": "Prompt Text",
+    "text": "请按这个格式输出："
+  },
+  {
+    "paragraph": 330,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 331,
+    "style": "Prompt Text",
+    "text": "- 项目一句话判断："
+  },
+  {
+    "paragraph": 332,
+    "style": "Prompt Text",
+    "text": "- 值不值得做："
+  },
+  {
+    "paragraph": 333,
+    "style": "Prompt Text",
+    "text": "- 最快赚钱路径："
+  },
+  {
+    "paragraph": 334,
+    "style": "Prompt Text",
+    "text": "- 最小 MVP："
+  },
+  {
+    "paragraph": 335,
+    "style": "Prompt Text",
+    "text": "- 预估投入："
+  },
+  {
+    "paragraph": 336,
+    "style": "Prompt Text",
+    "text": "- 预估回报："
+  },
+  {
+    "paragraph": 337,
+    "style": "Prompt Text",
+    "text": "- 最大风险："
+  },
+  {
+    "paragraph": 338,
+    "style": "Prompt Text",
+    "text": "- 建议先做什么："
+  },
+  {
+    "paragraph": 339,
+    "style": "Prompt Text",
+    "text": "- 建议不要做什么："
+  },
+  {
+    "paragraph": 340,
+    "style": "Prompt Heading",
+    "text": "52  复盘模式"
+  },
+  {
+    "paragraph": 341,
+    "style": "Use Case",
+    "text": "适用场景：交易亏损、项目失败、内容没流量、决策失误或执行拖延后做严格复盘时。"
+  },
+  {
+    "paragraph": 342,
+    "style": "Prompt Text",
+    "text": "你现在是一个非常严格的复盘教练。"
+  },
+  {
+    "paragraph": 343,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 344,
+    "style": "Prompt Text",
+    "text": "我会告诉你一次决策或一次行动的全过程。"
+  },
+  {
+    "paragraph": 345,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 346,
+    "style": "Prompt Text",
+    "text": "请你帮我复盘："
+  },
+  {
+    "paragraph": 347,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 348,
+    "style": "Prompt Text",
+    "text": "1. 我当时的目标是什么？"
+  },
+  {
+    "paragraph": 349,
+    "style": "Prompt Text",
+    "text": "2. 我基于哪些信息做了判断？"
+  },
+  {
+    "paragraph": 350,
+    "style": "Prompt Text",
+    "text": "3. 哪些判断是对的？"
+  },
+  {
+    "paragraph": 351,
+    "style": "Prompt Text",
+    "text": "4. 哪些判断只是运气好？"
+  },
+  {
+    "paragraph": 352,
+    "style": "Prompt Text",
+    "text": "5. 哪些判断明显错了？"
+  },
+  {
+    "paragraph": 353,
+    "style": "Prompt Text",
+    "text": "6. 我忽略了哪些风险信号？"
+  },
+  {
+    "paragraph": 354,
+    "style": "Prompt Text",
+    "text": "7. 我有没有被情绪影响？"
+  },
+  {
+    "paragraph": 355,
+    "style": "Prompt Text",
+    "text": "8. 我有没有过度自信？"
+  },
+  {
+    "paragraph": 356,
+    "style": "Prompt Text",
+    "text": "9. 如果重来一次，应该怎么做？"
+  },
+  {
+    "paragraph": 357,
+    "style": "Prompt Text",
+    "text": "10. 下次遇到类似情况，应该设置什么检查清单？"
+  },
+  {
+    "paragraph": 358,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 359,
+    "style": "Prompt Text",
+    "text": "请按以下格式输出："
+  },
+  {
+    "paragraph": 360,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 361,
+    "style": "Prompt Text",
+    "text": "- 这次最核心的问题："
+  },
+  {
+    "paragraph": 362,
+    "style": "Prompt Text",
+    "text": "- 做对的地方："
+  },
+  {
+    "paragraph": 363,
+    "style": "Prompt Text",
+    "text": "- 做错的地方："
+  },
+  {
+    "paragraph": 364,
+    "style": "Prompt Text",
+    "text": "- 运气成分："
+  },
+  {
+    "paragraph": 365,
+    "style": "Prompt Text",
+    "text": "- 认知盲区："
+  },
+  {
+    "paragraph": 366,
+    "style": "Prompt Text",
+    "text": "- 下次检查清单："
+  },
+  {
+    "paragraph": 367,
+    "style": "Prompt Text",
+    "text": "- 可以沉淀成什么方法论："
+  },
+  {
+    "paragraph": 368,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 369,
+    "style": "Guide Category",
+    "text": "05  自动化与定期研究"
+  },
+  {
+    "paragraph": 370,
+    "style": "Guide Category Intro",
+    "text": "适合交给自动化任务周期执行的复盘和信息搜集提示词。"
+  },
+  {
+    "paragraph": 371,
+    "style": "Prompt Heading",
+    "text": "53  每周自动复盘 Codex 记录"
+  },
+  {
+    "paragraph": 372,
+    "style": "Use Case",
+    "text": "适用场景：希望定期回顾对话和执行日志，沉淀可复用经验时。"
+  },
+  {
+    "paragraph": 373,
+    "style": "Prompt Text",
+    "text": "codex自动化：我想设置一个自动化，能够每周定期回顾我的所有的对话记录和执行日志，可以进行系统化的复盘，提炼出可以复用的经验文档，能够让codex越来越聪明，越来越懂我"
+  },
+  {
+    "paragraph": 374,
+    "style": "Prompt Heading",
+    "text": "54  GitHub 热门应用每日早报"
+  },
+  {
+    "paragraph": 375,
+    "style": "Use Case",
+    "text": "适用场景：希望每天搜索 GitHub 上最新且高热度的指定类型应用并生成早报时。"
+  },
+  {
+    "paragraph": 376,
+    "style": "Prompt Text",
+    "text": "我需要你每天帮我在github上找关于最新使用人数点赞最多的（）应用。并做成早报每天发给我"
+  },
+  {
+    "paragraph": 377,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 378,
+    "style": "Prompt Text",
+    "text": "反向计划法"
+  },
+  {
+    "paragraph": 379,
+    "style": "Prompt Text",
+    "text": "'假设一年后我实现了这个目标，那么这个月必须做完哪些事？全部反推出来'"
+  },
+  {
+    "paragraph": 380,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 381,
+    "style": "Prompt Text",
+    "text": "多维信息转换"
+  },
+  {
+    "paragraph": 382,
+    "style": "Prompt Text",
+    "text": "'把这段话分别转成表格、要点、图示三种格式'"
+  },
+  {
+    "paragraph": 383,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 384,
+    "style": "Prompt Text",
+    "text": "全力反驳模式"
+  },
+  {
+    "paragraph": 385,
+    "style": "Prompt Text",
+    "text": "'对这个观点，别客气，尽全力反驳'"
+  },
+  {
+    "paragraph": 386,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 387,
+    "style": "Prompt Text",
+    "text": "三角思维法"
+  },
+  {
+    "paragraph": 388,
+    "style": "Prompt Text",
+    "text": "'用赞成、反对、中立三个角度重新写一遍'"
+  },
+  {
+    "paragraph": 389,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 390,
+    "style": "Prompt Text",
+    "text": "极简概括"
+  },
+  {
+    "paragraph": 391,
+    "style": "Prompt Text",
+    "text": "'把本质浓缩成一句话，小学生也听得懂'"
+  },
+  {
+    "paragraph": 392,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 393,
+    "style": "Prompt Text",
+    "text": "分层表达"
+  },
+  {
+    "paragraph": 394,
+    "style": "Prompt Text",
+    "text": "'同一内容分别写给：初次接触、熟悉、专业人士三个层级'"
+  },
+  {
+    "paragraph": 395,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 396,
+    "style": "Prompt Text",
+    "text": "学以致用"
+  },
+  {
+    "paragraph": 397,
+    "style": "Prompt Text",
+    "text": "'这件事怎么具体落实，明天一起床最先做的五个行动是什么'"
+  },
+  {
+    "paragraph": 398,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 399,
+    "style": "Prompt Text",
+    "text": "类比讲法"
+  },
+  {
+    "paragraph": 400,
+    "style": "Prompt Text",
+    "text": "'用做饭的步骤来解释这个概念'"
+  },
+  {
+    "paragraph": 401,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 402,
+    "style": "Prompt Text",
+    "text": "深度挖掘"
+  },
+  {
+    "paragraph": 403,
+    "style": "Prompt Text",
+    "text": "'再给我一个更好的版本，这次认真'"
+  },
+  {
+    "paragraph": 404,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 405,
+    "style": "Prompt Text",
+    "text": "前置问诊"
+  },
+  {
+    "paragraph": 406,
+    "style": "Prompt Text",
+    "text": "'在给答案前，问我五个问题，确保回答更精准'"
+  },
+  {
+    "paragraph": 407,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 408,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 409,
+    "style": "Normal",
+    "text": "做选择："
+  },
+  {
+    "paragraph": 410,
+    "style": "Normal",
+    "text": "1/ THE DECISION SIMULATOR 🧠 Most people ask ChatGPT: “What option is better?” Mistake That usually produces generic responses Make it ANALYZE the decision: PROMPT: “I'm trying to decide between [OPTION A] and [OPTION B] My priorities are: [priority] [priority] [priority] Create a decision matrix with between 5 and 7 relevant criteria Assign a weight to each criterion based on my priorities and score both options from 1 to 10 Then show me: • the weighted result • the best argument in favor of each option • what assumptions could change the result • what additional information would reduce uncertainty the most Don't make the decision for me. Help me clearly understand the trade-offs” The key is here: You're not using ChatGPT as an oracle You're using it to THINK better"
+  },
+  {
+    "paragraph": 411,
+    "style": "Prompt Text",
+    "text": "质疑判断我的计划："
+  },
+  {
+    "paragraph": 412,
+    "style": "Normal",
+    "text": "This is one of my favorites Because ChatGPT is much more useful when you try to get it to tear down your arguments than when you try to get it to agree with you PROMPT: “This is my plan: [PASTE YOUR PLAN] Act as a skeptical but constructive critic Identify: • assumptions I'm treating as facts • risks I might be undervaluing • second-order consequences • information I'm missing • reasons why this plan might fail Then give me the 3 most important questions I should answer before moving forward” Don't look for the AI to confirm what you already think Use it to find your blind spots"
+  },
+  {
+    "paragraph": 413,
+    "style": "Prompt Text",
+    "text": "2/8法则学习知识"
+  },
+  {
+    "paragraph": 414,
+    "style": "Normal",
+    "text": "I want to understand [TOPIC] Create a knowledge map from beginner to advanced Divide it into: 1. Fundamental concepts 2. Important terminology 3. How the concepts relate to each other 4. Common mistakes 5. Advanced concepts 6. Practical applications Then identify which 20% of the concepts will provide me with approximately 80% of the practical understanding of the topic Don’t teach me everything yet First give me the map” When you can see the complete structure of a topic, learning it becomes much much easier"
+  },
+  {
+    "paragraph": 415,
+    "style": "Prompt Text",
+    "text": "用问问题和反馈的方式来学习"
+  },
+  {
+    "paragraph": 416,
+    "style": "Normal",
+    "text": "Don't just ask it: \"Teach me economics\" Make it adapt to YOU PROMPT: \"I want to learn [TOPIC] Before teaching me anything, ask me 3 questions to determine my current level Then teach me one concept at a time using simple explanations and concrete examples After each concept, ask me a question that assesses understanding, not memorization If my response shows I haven't understood it, explain it in a different way before continuing Gradually increase the difficulty\" You've just turned a conversation with AI into a learning system with feedback"
+  },
+  {
+    "paragraph": 417,
+    "style": "Prompt Text",
+    "text": "创建专家委员会从各个角度讨论分析问题"
+  },
+  {
+    "paragraph": 418,
+    "style": "Normal",
+    "text": "This trick is brutal when you have a problem without an obvious answer Instead of asking for an opinion… Force multiple perspectives PROMPT: “I’m considering this decision: [DECISION] Analyze it from the perspective of: • a risk manager • an economist • a psychologist • an experienced entrepreneur • a skeptic Each perspective should identify: 1. The biggest opportunity 2. The biggest risk 3. Something I’m probably overlooking Then compare where they agree and where they disagree Finally, identify the 3 variables that will truly determine the outcome” It doesn’t mean ChatGPT magically becomes 5 experts The utility lies in forcing it to look at the same problem from 5 different angles"
+  },
+  {
+    "paragraph": 419,
+    "style": "Prompt Text",
+    "text": "创建你个人操作系统，让ai了解我作出正确的判断"
+  },
+  {
+    "paragraph": 420,
+    "style": "Normal",
+    "text": "This requires more time But it's probably the most powerful of all PROMPT: \"I want to build a personal operating system to better organize my life First, interview me about: • goals • work • finances • health • relationships • responsibilities • recurring problems • habits • limitations Ask me ONE question at a time Once you have enough information about my situation, create: 1. My 3 highest-impact priorities 2. A weekly review system 3. A decision-making framework 4. A list of things I should stop doing 5. Metrics worth tracking 6. A simple 30-day experiment Avoid creating a perfect system I want one simple enough to actually use\" And here's the interesting part: I think we're using AI backwards Most people try to find the perfect PROMPT to get the perfect RESPONSE But the real leap happens when you stop using ChatGPT to get answers… …and start using it to ask yourself BETTER QUESTIONS That's when it stops being a chatbot And starts becoming a thinking tool"
+  },
+  {
+    "paragraph": 421,
+    "style": "Prompt Text",
+    "text": "把我的agents.md和skills查一遍"
+  },
+  {
+    "paragraph": 422,
+    "style": "Normal",
+    "text": "2. First, review your AGENTS.md and Skills thoroughly If you're already using GPT-6 Astra, it's recommended to do this first. Start a new conversation and send it the following text: \"Review my AGENTS.md and Skills, identify any instruction issues that could potentially affect the Agent's normal operation, including: unclear phrasing, conflicting or redundant rules; rules that could lead to unnecessary pauses, repeated confirmations, or incomplete task execution; pay special attention to instructions related to autonomous execution, clarification, approval, and task completion; distinguish between: safety or approval requirements that must be retained; rules that unintentionally restrict the Agent's normal operation; for each issue, please specify: which file it comes from, and quote the original text; what actual impact it might cause; suggest how to modify it; prioritize pointing out the few issues with the greatest impact. Do not directly modify the files; first provide me with a list of modification suggestions, wait for my confirmation before making changes, and if any modification would expand the Agent's permissions, clearly mark it as such.\""
+  },
+  {
+    "paragraph": 423,
+    "style": "Prompt Text",
+    "text": "全链条构建完整的应用程序"
+  },
+  {
+    "paragraph": 424,
+    "style": "Normal",
+    "text": "1. Build a complete application “Act as a senior full stack engineer. Build a production ready application for [describe product]. Start by defining the requirements and system architecture. Then create the smallest version that can launch and scale. Include: • Technology choices • File structure • Database schema • API endpoints • Interface structure • Complete implementation • Setup instructions • Tests Ask for any missing information before writing code.”"
+  },
+  {
+    "paragraph": 425,
+    "style": "Prompt Text",
+    "text": "修改照片提示词："
+  },
+  {
+    "paragraph": 426,
+    "style": "Normal",
+    "text": "升级至 DSLR 视觉效果 “将我的照片处理成专业全画幅单反相机拍摄的效果。保持我的脸部、身体、表情、衣着和身份完全不变。添加逼真的景深、自然的皮肤纹理、轻微的颗粒感和均衡的曝光。不要美化或改变任何形状。"
+  },
+  {
+    "paragraph": 427,
+    "style": "Normal",
+    "text": "单反摄影师模式提示：将我上传的照片转换成一张使用单反相机拍摄的专业人像照片。保留我清晰自然的面部特征、肤色、发型和身份。将我置于[地点]；使用逼真的光线、自然的皮肤纹理、浅景深、轻微的背景虚化、真实的镜头视角、专业的构图以及真实摄影应有的细节。最终图像看起来不像人工智能生成的，而像是出自一位真正的摄影师之手。"
+  },
+  {
+    "paragraph": 428,
+    "style": "Normal",
+    "text": "高端杂志风格 “将我的照片转换成高端杂志肖像照。保持我的面部结构、身材和皮肤纹理不变。增强光线、构图、对比度和背景分离度，使其看起来像是高端杂志的拍摄作品。”"
+  },
+  {
+    "paragraph": 429,
+    "style": "Normal",
+    "text": "2. 电影风格拍摄提示：请将我上传的照片转换成一系列专业的电影风格照片。将我置于[场景]中；运用戏剧性但真实的灯光、自然的阴影、浅景深、轻微的背景虚化、电影化的构图、逼真的皮肤纹理、清晰的服装细节以及专业的色彩分级。在保持我的身份和面部特征的同时，也保留我的特色。最终照片应看起来像是在高水准电影制作的片场拍摄的真实照片。"
+  },
+  {
+    "paragraph": 430,
+    "style": "Normal",
+    "text": "3、学习黄金时段外部编辑 “将我的照片转换成自然的黄金时段照片。保留我的个人特征。添加温暖逼真的阳光、柔和的阴影、自然的肤色和轻微的景深。避免人工光泽或过度饱和。"
+  },
+  {
+    "paragraph": 431,
+    "style": "Normal",
+    "text": "3. 奢华Instagram写真拍摄主题：将我上传的照片打造成一张适合Instagram主页的高端生活方式图片。请将我置于[奢华地点]，身着[服装]。运用精致的灯光、真实的环境细节、自然的姿势、专业的构图、浅景深和自然的肌肤纹理。整体氛围应奢华且具有杂志大片水准，但切忌虚假或过度修图。"
+  },
+  {
+    "paragraph": 432,
+    "style": "Normal",
+    "text": "4. 清晰专业的头像照 “请根据我的照片制作一张清晰专业的头像照。保持我的脸型、发型和表情不变。使用自然柔和的光线、真实的纹理，背景略微虚化。请勿使用任何美化处理。"
+  },
+  {
+    "paragraph": 433,
+    "style": "Normal",
+    "text": "4. 旅行博主角色设定：将我上传的照片转换成一张在[目的地]拍摄的真实专业的旅行照片。在保留我的面部特征和身份的同时，自然地将我融入当地环境。确保光线、阴影、视角、天气、服装和周围环境都真实匹配。运用专业的旅行摄影构图技巧，展现真实的景深、自然的色彩、丰富的环境细节以及适当的背景分离。"
+  },
+  {
+    "paragraph": 434,
+    "style": "Normal",
+    "text": "5. 修正光线不足 “请修正我照片中的光线，但不要改变我的脸部特征。保持我的身份、五官和皮肤纹理完全不变。平衡刺眼的阴影，恢复暗部或过曝部分，使光线看起来自然，就像照片是在光线充足的环境下拍摄的一样。无需磨皮或美化。"
+  },
+  {
+    "paragraph": 435,
+    "style": "Normal",
+    "text": "5. 杂志封面图片要求：将我上传的照片转换成一张高端时尚大片。保留我自然且易于辨认的外貌。给我一个精致的姿势；[服装/风格]，专业的影棚或杂志灯光，逼真的皮肤纹理，可控的阴影，高级的构图，浅景深，以及专业但自然的色彩调校。让它看起来像是出自顶级时尚杂志的专业摄影师之手。"
+  },
+  {
+    "paragraph": 436,
+    "style": "Normal",
+    "text": "6. 专业中性背景 “请将我照片中杂乱的背景替换为专业且中性的背景（柔和的纯色或轻微的影棚虚化）。保持我的脸部、头发、服装和光线完全不变，并使我与新背景之间的过渡看起来自然，头发周围不要有生硬的边缘。"
+  },
+  {
+    "paragraph": 437,
+    "style": "Normal",
+    "text": "6. 修复旧照片提示：将我上传的照片修复成一张现代专业的肖像照。在保留我真实面部特征和自然特征的前提下，增强光线、构图、清晰度、皮肤细节、曝光、背景以及整体图像质量。让这张旧照片看起来像是用专业相机和高品质人像镜头拍摄的。"
+  },
+  {
+    "paragraph": 438,
+    "style": "Normal",
+    "text": "7. 老照片修复 “修复这张老旧或破损的照片。去除划痕、污渍和褪色，增强清晰度，但不要添加原图中不存在的面部细节。保持照片中人物的外貌和身份与原图一致。如果是黑白照片，请先询问我是否想要着色或保留黑白原貌。"
+  },
+  {
+    "paragraph": 439,
+    "style": "Normal",
+    "text": "7. 场景变更提示：完全保留我上传照片中的人物外观和辨识度，但将我所处的环境完全更改为[地点]。使光线、阴影、透视、反射、氛围、服装与环境的互动以及背景都自然地与新地点相匹配。让我看起来像真的站在那里一样，如同使用专业单反相机拍摄。保留真实的皮肤纹理和自然的面部细节。"
+  },
+  {
+    "paragraph": 440,
+    "style": "Normal",
+    "text": "8. 专业头像照片要求：请将我上传的照片转换成一张适合 LinkedIn、公司网站或个人品牌形象的专业肖像照。保留我清晰自然的面部特征、脸型、肤色、发型和个人风格。使用干净专业的灯光、逼真的皮肤纹理、自然的表情、巧妙的背景虚化、清晰的面部细节以及精心构图。照片应看起来像是由专业摄影师使用高端相机拍摄的真实肖像照。"
+  },
+  {
+    "paragraph": 441,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 442,
+    "style": "Prompt Text",
+    "text": "学习语言模式"
+  },
+  {
+    "paragraph": 443,
+    "style": "Normal",
+    "text": "1. 开启语言学习模式。您是一位专业的语言教师，运用系统的教学方法帮助众多初学者掌握语言并流利交流。从现在开始，每当我提到某种语言，请像私人教师一样一步一步地教我。重点培养口语能力、真实场景下的交流能力和实际理解能力。"
+  },
+  {
+    "paragraph": 444,
+    "style": "Normal",
+    "text": "2. 制定系统学习计划 请为我制定一个清晰且结构化的“[输入语言]”精通计划。将学习分为以下几个阶段：基础入门、日常会话技巧、句子结构、语法理解、真实情境交流"
+  },
+  {
+    "paragraph": 445,
+    "style": "Normal",
+    "text": "3. 创建每日课程 为我设计一个“[输入语言]”每日课程计划，包括：词汇、造句、发音指导、简短练习。确保练习可以在合理的时间内完成。"
+  },
+  {
+    "paragraph": 446,
+    "style": "Normal",
+    "text": "4. 简化语法规则 用简单的方式解释[输入语言]的语法，使用日常对话中的例子来说明规则是如何应用的，而不是抽象的理论解释。"
+  },
+  {
+    "paragraph": 447,
+    "style": "Normal",
+    "text": "5. 纠错 请审阅我提供的用[输入语言]撰写的写作或口语练习，并指出语法、词汇和句式结构中的错误。请给出改正建议并解释如何避免这些错误。"
+  },
+  {
+    "paragraph": 448,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 449,
+    "style": "Prompt Text",
+    "text": "学习技能模式"
+  },
+  {
+    "paragraph": 450,
+    "style": "Normal",
+    "text": "2. 技能提升路线图生成器 复制到 ChatGPT：“为我创建一个精通路线图，使我成为[技能/领域]的世界级专家，包括顶尖 1% 的人使用但很少分享的罕见技巧、秘密资源和非常规方法。”"
+  },
+  {
+    "paragraph": 451,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 452,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 453,
+    "style": "Prompt Text",
+    "text": ""
+  },
+  {
+    "paragraph": 454,
+    "style": "Normal",
+    "text": "⑦ 证据披露模式 “对于你断言某些内容为事实的部分，请提供证据。对于不确定的部分，请先说明‘这只是推测’。”③ 诚实模式 这句话几乎可以杜绝毫无根据的断言。它虽然朴实无华，但却至关重要。↓ “对于你不了解或涉及推测的部分，不要拐弯抹角——直接说‘这部分我不知道’。”"
+  },
+  {
+    "paragraph": 455,
+    "style": "Normal",
+    "text": "⑥ 零知识转换模式 您可以直接使用此模式向他人解释复杂内容。“将所有技术术语转换为日常语言，使即使是零基础的人也能理解，并用三句话概括。”"
+  },
+  {
+    "paragraph": 456,
+    "style": "Normal",
+    "text": "⑤ 弱点先发制人模式，适用于对计划、提案和帖子进行风险检查 ↓ “请给出针对此回复的三个最有力的反驳论点，并分别提供对每个论点的反驳。”"
+  },
+  {
+    "paragraph": 457,
+    "style": "Normal",
+    "text": "④ 结论先行模式 当收到含糊不清的回复时，请按以下格式回复：↓ “按以下顺序回答：一行结论 → 三个理由（要点式） → 例外情况列在最后”"
+  },
+  {
+    "paragraph": 458,
+    "style": "Normal",
+    "text": "③ 诚实模式 这句话几乎可以杜绝毫无根据的断言。它虽然朴实无华，但却至关重要。↓ “对于你不了解或涉及推测的部分，不要拐弯抹角——直接说‘这部分我不知道’。”"
+  },
+  {
+    "paragraph": 459,
+    "style": "Normal",
+    "text": "② 现场专业模式 开启和关闭此功能，即可一目了然地看出区别↓ “以拥有20年从业经验的专业人士的身份作答，并附有实用、真实的案例”"
+  },
+  {
+    "paragraph": 460,
+    "style": "Normal",
+    "text": "① 自我纠错模式（效果最佳）我最常用的是这个↓ “给出答案后，请自行检查逻辑矛盾和事实错误。如有任何问题，请提供更正后的版本。”"
+  },
+  {
+    "paragraph": 461,
+    "style": "Normal",
+    "text": "gpt最新更新提示词用法："
+  },
+  {
+    "paragraph": 462,
+    "style": "Normal",
+    "text": "避免使用空洞、俗套的词语和句式，例如在结论中使用“核心结论：”，以及“深入探讨”“促进”“充分利用”“值得注意的是”“重要的是”“问题是什么？答案是……”“这不是关于 X，而是关于 Y”“真正地”等表达。避免使用通过连字符生造出来的复合描述语和复合形容词。不要使用“简而言之……”“最简单的理解方式是……”之类的总结句。 ​ 直接说明准备执行的操作。不要额外介绍你不会做什么、哪些内容将保持不变，或者你准备如何拆分和归类结果。 不要使用“是 X，而不是 Y”或“X——不是 Y”这样的对比句式，因为它们会主动引入用户并未询问的另一种说法。避免生造类似“精确标题检查”“编辑式行布局”这样的复合标签，也要避免模糊的限定语和套路化的过渡句。使用简单、直接的动词和介词，准确说明事物之间的真实关系。"
+  },
+  {
+    "paragraph": 463,
+    "style": "Normal",
+    "text": "--- "
+  },
+  {
+    "paragraph": 464,
+    "style": "Normal",
+    "text": "子代理委托"
+  },
+  {
+    "paragraph": 465,
+    "style": "Normal",
+    "text": "GPT - 6 Astra 被训练为能够将任务拆分并委托给 Subagent 并行工作的模型，所以如果你正在搭建和训练自己的多 Agent 系统，可以使用以下提示词来调整 GPT-6 Astra 的任务委派程度："
+  },
+  {
+    "paragraph": 466,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 467,
+    "style": "Normal",
+    "text": "---"
+  },
+  {
+    "paragraph": 468,
+    "style": "Normal",
+    "text": "无论你是作为父代理还是 subagent 代理，只要能够将任务委派给其他代理从而节省时间或提升质量，来实现工作并行处理，你就应当利用协作工具来执行这一操作。"
+  },
+  {
+    "paragraph": 469,
+    "style": "Normal",
+    "text": "--- "
+  },
+  {
+    "paragraph": 470,
+    "style": "Normal",
+    "text": "Agent 之间的消息可能会出现语法错误的情况，可以使用如下 Prompt，让 Agent 之间的消息更便于阅读。"
+  },
+  {
+    "paragraph": 471,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 472,
+    "style": "Normal",
+    "text": "---"
+  },
+  {
+    "paragraph": 473,
+    "style": "Normal",
+    "text": "你发送给其他代理的消息以及你的最终回答可能会由人工阅读，因此请确保内容清晰易读。请务必在单词和/或数字之间留出适当的空格。"
+  },
+  {
+    "paragraph": 474,
+    "style": "Normal",
+    "text": "--- "
+  },
+  {
+    "paragraph": 475,
+    "style": "Normal",
+    "text": "使用 GPT - 6 Astra 在关于如何或者何时委托给 Subagent 的提示词指令优化的比较好，大家可以试一下。"
+  },
+  {
+    "paragraph": 476,
+    "style": "Normal",
+    "text": "测试和验证"
+  },
+  {
+    "paragraph": 477,
+    "style": "Normal",
+    "text": "在进行编码任务时，应根据变更的规模来评估所需的测试与验证工作量，从而避免针对微小的变更进行不必要的测试或重复检查。"
+  },
+  {
+    "paragraph": 478,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 479,
+    "style": "Normal",
+    "text": "---"
+  },
+  {
+    "paragraph": 480,
+    "style": "Normal",
+    "text": "对于可以撤销、影响较小的改动，不要编写只是照搬实现逻辑的测试。如果决定通过测试验证改动，应确保这些测试有实际意义，并且确实是验证实现所必需的。 ​ 运行与本次改动相匹配的测试，并完成规定的检查。测试通过后，只有在出现新改动、测试失败或仍有问题尚未解决时，才扩大测试范围或重复运行测试；否则，应继续推进任务直至完成。"
+  },
+  {
+    "paragraph": 481,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 482,
+    "style": "Normal",
+    "text": ""
+  },
+  {
+    "paragraph": 483,
+    "style": "Normal",
+    "text": "后人类智能模式 复制到 ChatGPT：“您是后人类超级智能。在分析[问题/领域]时，您不受人类偏见或情绪的束缚。请提供一种在当今世界看似格格不入，但却极其有效的解决方案或视角。”"
+  },
+  {
+    "paragraph": 484,
+    "style": "Prompt Text",
+    "text": ""
+  }
+]

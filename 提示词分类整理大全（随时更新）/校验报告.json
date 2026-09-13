@@ -1,0 +1,44 @@
+{
+  "source_sha256": "9be18d00ae0911364a3d3169ccb5964833f12bb871bea088bc4d5c6c24019b53",
+  "count": 105,
+  "categories": {
+    "01  NotebookLM：资料核验与降低幻觉": 3,
+    "02  ChatGPT：学习、训练与知识掌握": 30,
+    "03  通用：提示词优化与复杂任务控制": 4,
+    "04  Codex 与开发：应用、项目、审计和产品决策": 23,
+    "05  自动化与定期研究": 2,
+    "06  思考、表达与行动": 12,
+    "07  决策、计划与个人管理": 4,
+    "08  照片、摄影与修复": 15,
+    "09  语言学习": 5,
+    "10  回答质量、证据与纠错": 7
+  },
+  "new_content_not_in_entries": [
+    [
+      425,
+      "修改照片提示词："
+    ],
+    [
+      442,
+      "学习语言模式"
+    ],
+    [
+      449,
+      "学习技能模式"
+    ],
+    [
+      463,
+      "--- "
+    ]
+  ],
+  "entry_equality_verified": true,
+  "docx_copy_byte_identical": true,
+  "github_status": "此目录为本次 GitHub 发布版本，历史旧版未取得。",
+  "all_105_display_outputs_verified": true,
+  "skill_behavior_review": {
+    "four_week_english": "四周两个变体、45分钟短周期和语言条目可检索，原文不替换占位符，待用户选择。",
+    "old_photo": "P084 和 P085 两个版本均可检索。"
+  },
+  "local_installation_verified": true,
+  "github_url": "https://github.com/lyl19871230-byte/lyl19871230/tree/main/%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%88%86%E7%B1%BB%E6%95%B4%E7%90%86%E5%A4%A7%E5%85%A8%EF%BC%88%E9%9A%8F%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89"
+}
