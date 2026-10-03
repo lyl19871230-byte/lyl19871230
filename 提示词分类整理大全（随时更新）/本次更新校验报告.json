@@ -1,0 +1,23 @@
+{
+  "version": "2026-10-03-zh-v3",
+  "entry_count": 128,
+  "new_entry_count": 33,
+  "category_counts": {
+    "01  资料核验与信息补足": 3,
+    "02  学习训练与知识掌握": 37,
+    "06  思考表达与行动": 14,
+    "03  提示词优化与任务控制": 3,
+    "04  应用开发与项目管理": 24,
+    "05  自动化与定期研究": 2,
+    "07  决策计划与个人管理": 6,
+    "08  照片摄影与修复": 13,
+    "09  语言学习": 5,
+    "10  回答质量与纠错": 6,
+    "11  视频编辑与视觉制作": 10,
+    "12  个人造型与形象分析": 5
+  },
+  "old_text_preserved": true,
+  "new_text_preserved": true,
+  "old_id_mapping_preserved": true,
+  "all_hashes_valid": true
+}
