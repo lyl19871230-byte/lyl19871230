@@ -3,7 +3,7 @@ name: uu-learning-hub
 description: Use when the user asks for UU/悠悠的单日或七天学习计划、学习新鲜事、书籍/绘本/动画/资源推荐或自然同义表达。Default to the lightest workflow that preserves quality; use real sub-agents when available, otherwise execute the same roles serially without asking for confirmation.
 ---
 
-# 悠悠学习：单日 / 七天学习计划 / 新鲜事 / 推荐书（当前正式版 V4）
+# 悠悠学习：单日 / 七天学习计划 / 新鲜事 / 推荐书（当前正式版 V5）
 
 ## 总原则
 - 基础不跳级，能力不上封顶。
@@ -175,7 +175,7 @@ E PASS后，**学习计划的正式交付物必须是 .xlsx，不能只在聊天
 
 ## REQUIRED REFERENCES
 按模式读取：
-- 单日/七天计划：`references/seven-day-plan.md`、`references/review-rubric.md`、`references/weekly-report.md`、`references/evidence-map.md`、`references/excel-output.md`
+- 单日/七天计划：`references/seven-day-plan.md`、`references/assessment-map.md`、`references/subject-tracks.md`、`references/review-rubric.md`、`references/weekly-report.md`、`references/evidence-map.md`、`references/excel-output.md`
 - 新鲜事：`references/fresh-news.md`、`references/evidence-map.md`
 - 推荐：`references/resource-recommendation.md`、`references/evidence-map.md`
 - A需要时读 `references/prompt-map.md`
